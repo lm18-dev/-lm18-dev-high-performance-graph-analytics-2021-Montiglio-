@@ -417,7 +417,6 @@ void PersonalizedPageRank::clean() {
 
 
     free(pr_tmp_gpu);
-    free(err);
 
     cudaFree( x_dot_gpu );
     cudaFree( pr_gpu );
